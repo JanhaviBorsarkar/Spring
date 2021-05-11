@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+      <beans>
+      	<bean id = "s" class = "com.Student">
+      		<constructor-arg value = "1"></constructor-arg>
+      		<constructor-arg value = "abc"></constructor-arg>
+      	
+        	<property name = "rno" value = "1"></property>
+        	<property name = "name" value = "abc"></property>
+        </bean>
+      </beans>
