@@ -1,0 +1,15 @@
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id = "address" class = "com.Address">
+		<constructor-arg value = "Akurdi"></constructor-arg>
+      	<constructor-arg value = "Pune"></constructor-arg>
+	</bean>
+
+	<bean id = "stu" class = "com.Student" autowire = "constructor">
+		<constructor-arg value = "1" type = "int"></constructor-arg>
+      	<constructor-arg value = "abc"></constructor-arg>
+	</bean>	
+	
+</beans>			
